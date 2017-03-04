@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search / will display always -->
+    
+     
+    <!-- Location Found -->
+    
+     
+    <!-- Refresh -->
+    <item android:id="@+id/action_about"
+          android:icon="@drawable/about"
+          android:title="About"
+          android:showAsAction="ifRoom" />
+     
+    <!-- Help -->
+    <item android:id="@+id/action_help"
+          android:icon="@drawable/help"
+          android:title="Help"
+          android:showAsAction="never"/>
+     
+    <!-- Check updates -->
+    <item android:id="@+id/action_info"
+          android:icon="@drawable/info"
+          android:title="Info"
+          android:showAsAction="never" />
+</menu>

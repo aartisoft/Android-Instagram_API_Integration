@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eversnap_Instagram_gallery</string>
+        <string name="title_firstpage">SwiperFirstpage</string>
+        <string name="title_fragmentact">Fragmentmain</string>
+            <string name="title_fragmentone">firstfragment</string>
+            <string name="title_fragmentthree">Thirdfragment</string>
+                <string name="title_fragmenttwo">Secondfragment</string>
+                <string name="title_fullimageactivity">Fullimagedisplay</string>
+                    <string name="title_imageadapter">Imageadpter</string>
+                    <string name="title_instagramapp">Instagramap</string>
+                        <string name="title_instagramdialog">dialoginsta</string>
+                        <string name="title_instagramsession">Sessioninsta</string>
+                            <string name="title_mainactivity">Mainactive</string>
+                            <string name="title_secondpage">Swipersecond</string>
+                                <string name="title_splashscreen">Splash</string>
+                                <string name="title_swiper">Swipermain</string>
+                                    <string name="title_thirdpage">Swiperthird</string>
+                                
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

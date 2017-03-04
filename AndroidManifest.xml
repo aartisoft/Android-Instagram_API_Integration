@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eversnap_instagram_gallery"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".Firstpage"
+            android:label="@string/title_firstpage" >
+        </activity>
+        <activity
+            android:name=".Fragmentact"
+            android:label="@string/title_fragmentact" >
+        </activity>
+        <activity
+            android:name=".Fragmentone"
+            android:label="@string/title_fragmentone" >
+        </activity>
+        <activity
+            android:name=".Fragmentthree"
+            android:label="@string/title_fragmentthree" >
+        </activity>
+        <activity
+            android:name=".Fragmenttwo"
+            android:label="@string/title_fragmenttwo" >
+        </activity>
+        <activity
+            android:name=".Fullimageactivity"
+            android:label="@string/title_fullimageactivity" >
+        </activity>
+        <activity
+            android:name=".Imageadapter"
+            android:label="@string/title_imageadapter" >
+        </activity>
+        <activity
+            android:name=".InstagramApp"
+            android:label="@string/title_instagramapp" >
+        </activity>
+        <activity
+            android:name=".InstagramDialog"
+            android:label="@string/title_instagramdialog" >
+        </activity>
+        <activity
+            android:name=".InstagramSession"
+            android:label="@string/title_instagramsession" >
+        </activity>
+        <activity
+            android:name=".Secondpage"
+            android:label="@string/title_secondpage" >
+        </activity>
+        <activity
+            android:name=".Swiper"
+            android:label="@string/title_swiper" >
+        </activity>
+        <activity
+            android:name=".Thirdpage"
+            android:label="@string/title_thirdpage" >
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+                        android:label="@string/title_splashscreen" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
